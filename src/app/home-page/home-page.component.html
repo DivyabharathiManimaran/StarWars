@@ -8,6 +8,7 @@
           <mat-label>Search</mat-label>
           <input
             matInput
+            autocomplete="off"
             (keyup)="getTableData(search.value)"
             formControlName="searchControl"
             #search
